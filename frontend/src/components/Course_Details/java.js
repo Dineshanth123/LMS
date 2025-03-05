@@ -185,7 +185,7 @@ function Java() {
             </div>
         </div>
       
-      {/* Course Videos */}
+
       <div className="card mt-4 mb-5">
         <div className="BackHeader card-header d-flex justify-content-center">
             <h3>Course Videos</h3>

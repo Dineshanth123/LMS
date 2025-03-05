@@ -186,7 +186,6 @@ function Python() {
             <p className="fw-bold">    iv)system scripting.</p>
           </div>
       </div>
-      {/* Course Videos */}
       <div className="card mt-4">
         <div className="BackHeader card-header d-flex justify-content-center">
             <h3>Course Videos</h3>

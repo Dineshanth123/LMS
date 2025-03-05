@@ -93,7 +93,7 @@ def register_user(request):
         except Exception as e:
             return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
-# Add the change_password view
+
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 def change_password(request):

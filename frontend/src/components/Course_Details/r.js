@@ -181,8 +181,6 @@ function R() {
                 <p className="fw-bold">It is easy to draw graphs in R, like pie charts, histograms, box plot, scatter plot, etc++</p>
             </div>
         </div>
-      
-      {/* Course Videos */}
       <div className="card mt-4 mb-5">
         <div className="BackHeader card-header d-flex justify-content-center">
             <h3>Course Videos</h3>

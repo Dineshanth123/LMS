@@ -24,7 +24,7 @@ function Home() {
         <div className='d-flex justify-content-center'>
           <h4 className='animated-text'>Hello {loguser.username} !!</h4>
         </div>
-        {/* Latest Course */}
+        
         <h3 className="border-bottom pb-1 mt-4">Latest Courses </h3> 
         <div className="row justify-content-center row-cols-auto">
           <div className="col-12 col-md-2 col-sm-4">
@@ -32,7 +32,7 @@ function Home() {
               <div className="image"><Link to='./python'><img src="/assats/python.jpeg" className="card-img-top" alt="..." /></Link></div>
               
               <div className="card-body">
-                {/* <h5 className="card-title"><Link to="/detail/1">React</Link></h5> */}
+                
                 <Link to="./python" className="custom-button btn float-end">Python</Link>
               </div>
             </div>
@@ -71,8 +71,7 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* End Latest Course */}
-        {/* Offered Course */}
+        
         <h3 className="border-bottom pb-1 my-4 mt-3">Offered Courses </h3>
         <div className="row justify-content-center row-cols-auto">
           <div className="col-12 col-md-2 col-sm-4">
@@ -116,8 +115,6 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* End Offered Course */}
-        {/* About */}
         <h3 className="border-bottom pb-1 my-4 mt-3">About </h3>
         <div id="carouselExampleControls" className="about carousel slide text-white py-4" data-bs-ride="carousel">
           <div className="carousel-inner">
@@ -152,7 +149,6 @@ function Home() {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-        {/* About */}
 
       </div>
     );
